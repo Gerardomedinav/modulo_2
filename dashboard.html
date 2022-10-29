@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/8e58209530.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="frontend/accets/css/style.css">
+</head>
+
+<body>
+   
+        <nav class="navbar flex-nowrap navbar-expand-lg bg-primary fixed-top" >
+            <div class="container">
+                <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" class="navbar-brand has-logo
+                ">
+                  <span class="logoargentinaprograma">
+                    <img src= "frontend/accets/img/logoYoProgramo.png" alt="argentina-programa"  >
+                  </span>
+                </a>
+            </div>
+                <!--iconos de redes sociales-->
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item">
+                        <a href="https://www.Instagram.com/polirrubros_codigo_urbano2020" class="icon-instagram">
+                        <i class="ri-isntagram-line"></i>
+                        <span class="logoInstegram">
+                        <img src= "frontend/accets/img/logoInstagram.png" alt="Instagram" width="40vw" height="40vw">
+                        </span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://mobile.twitter.com/germedi83" class="icon-twitter">
+                        <i class="ri-twitter-line"></i>
+                        <span class="logoTwitter">
+                        <img src= "frontend/accets/img/logotwitter.png" alt="Twitter" width="40vw" height="40vw">
+                        </span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://wwww.facebook.com/gerardomedinav" class="icon-facebook">
+                        <i class="ri-facebook-line"></i>
+                        <span class="logofacebook">
+                        <img src= "frontend/accets/img/logoFacebook.png" alt="facebook" width="50vw" height="50vw">
+                        </span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://github.com/Gerardomedinav" class="icon-github">
+                        <i class="ri-github-line"></i>
+                        <span class="logogithub">
+                        <img src= "frontend/accets/img/logoGitHub.png" alt="github" width="40vw" height="40vw">
+                        </span>
+                        </a>
+                    </li>
+                        <!-- Button trigger modal LOGIN-->
+                      <li class="list-group-item">
+                        <input id="inpLock" type="checkbox">
+                        <label class="btn-lock" for="inpLock">
+                        <svg width="3vw" height="3vw" viewBox="0 0 36 40">
+                        <path class="lockb" d="M27 27C27 34.1797 21.1797 40 14 40C6.8203 40 1 34.1797 1 27C1 19.8203 6.8203 14 14 14C21.1797 14 27 19.8203 27 27ZM15.6298 26.5191C16.4544 25.9845 17 25.056 17 24C17 22.3431 15.6569 21 14 21C12.3431 21 11 22.3431 11 24C11 25.056 11.5456 25.9845 12.3702 26.5191L11 32H17L15.6298 26.5191Z"></path>
+                        <path class="lock" d="M6 21V10C6 5.58172 9.58172 2 14 2V2C18.4183 2 22 5.58172 22 10V21"></path>
+                        <path class="bling" d="M29 20L31 22"></path>
+                        <path class="bling" d="M31.5 15H34.5"></path>
+                        <path class="bling" d="M29 10L31 8"></path>
+                        </svg>
+                        </label> 
+                        
+                      </li>
+                  </ul>
+                    
+                         
+        </nav>
+          
+       
+            <!--  Sidebar -->
+            <div class="d-flex  align-items-start">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Datos Personales</button>
+                  <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Sobre Mi</button>
+                  <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Mis Habilidades</button>
+                  <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Estudios</button>
+                  <button class="nav-link" id="v-pills-iconos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-iconos" type="button" role="tab" aria-controls="v-pills-iconos" aria-selected="false">Iconos Redes</button>
+                  <button class="nav-link" id="v-pills-curriculum-tab" data-bs-toggle="pill" data-bs-target="#v-pills-curriculum" type="button" role="tab" aria-controls="v-pills-curriculum" aria-selected="false">Curriculum</button>
+                  <button class="nav-link" id="v-pills-Proyecto-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Proyecto" type="button" role="tab" aria-controls="v-pills-Proyecto" aria-selected="false">Proyectos</button>
+                </div>
+            
+                <div class="tab-content flex-grow-1 text-center" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                              <div>
+                                <h4>DATOS PERSONALES</h4>
+                                <label for="formFileSm" class="form-label" style="color: purple">Foto de Perfil</label>
+                                <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                <button type="button" class="btn btn-primary">Guardar</button>
+                              </div>
+                              <div> 
+                                <label for="formFileSm" class="form-label" style="color: purple">Nombre y Apellido</label>
+                                <input class="form-control form-control-sm" id="formFileSm" type="text">
+                                <button type="button" class="btn btn-primary">Guardar</button>
+                              </div>
+                  </div>
+                          
+                  <div class="tab-pane fade text-center" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <h4>Sobre Mi</h4>
+                            <input class="form-control form-control-sm" id="formFileSm" type="text">
+                            <button type="button" class="btn btn-primary">Guardar</button>
+                  </div>
+                  <div class="tab-pane fade text-center" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+                            <div>
+                              <h4 style="color: purple">MIS HABILIDADES DESCRIPCIÓN</h4>
+                              <input class="form-control form-control-sm" id="formFileSm" type="text">
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                            <div>
+                              <h4 style="color: purple"><strong>NIVELES DE HABILIDADES</strong></h4>
+                              <h4 style="color: purple">Descripcion Habilidad</h4>
+                              <input class="form-control form-control-sm" id="formFileSm" type="text">
+                              <h4 style="color: purple">Porcentaje del 0% al 100% </h4>
+                              <input class="form-control form-control-sm" id="formFileSm" type="text">
+                              <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+
+                  </div>
+                    <div class="tab-pane fade text-center" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+                      <div>
+                        <h4><strong>ESTUDIOS</strong></h4>
+                        <h4 style="color: purple">Titulo</h4>
+                        <input class="form-control form-control-sm" id="formFileSm" type="text">
+                        <h4 style="color: purple">Nonbre Institución</h4>
+                        <input class="form-control form-control-sm" id="formFileSm" type="text">
+                        <h4 style="color: purple">Fecha inicio y Final</h4>
+                        <input class="form-control form-control-sm" id="formFileSm" type="text">
+                        <h4 style="color: purple">Conocimientos adquiridos</h4>
+                        <input class="form-control form-control-sm" id="formFileSm" type="text">
+                        
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                      </div>
+                    </div>
+                      <div class="tab-pane fade text-center" id="v-pills-iconos" role="tabpanel" aria-labelledby="v-pills-iconos-tab" tabindex="0">
+                        <div>
+                          <h4>ICONOS RED SOCIAL</h4>
+                          <label for="formFileSm" class="form-label" style="color: purple">Imagen del Icono</label>
+                          <input class="form-control form-control-sm" id="formFileSm" type="file">
+                          <h4 style="color: purple">Url Red Social</h4>
+                          <input class="form-control form-control-sm" id="formFileSm" type="text">
+                          <button type="button" class="btn btn-primary">Guardar</button>
+
+                        </div>
+                      </div>
+                      <div class="tab-pane fade text-center" id="v-pills-curriculum" role="tabpanel" aria-labelledby="v-pills-curriculum-tab" tabindex="0">
+                          <h4>CURRICULUM VITAE</h4>
+                          <label for="formFileSm" class="form-label" style="color: purple">Archivo Currriculum Vitae</label>
+                          <input class="form-control form-control-sm" id="formFileSm" type="file">
+                          <button type="button" class="btn btn-primary">Guardar</button>
+                      </div>
+                      <div class="tab-pane fade text-center" id="v-pills-Proyecto" role="tabpanel" aria-labelledby="v-pills-Proyecto-tab" tabindex="0">
+                        <h4>PROYECTOS</h4>
+                        <h4 style="color: purple">Nombre del Proyecto</h4>
+                        <input class="form-control form-control-sm" id="formFileSm" type="text">
+                        <h4 style="color: purple">Fecha inicio y Final</h4>
+                        <input class="form-control form-control-sm" id="formFileSm" type="text">
+                        <h4 style="color: purple">Url del Proyecto</h4>
+                          <input class="form-control form-control-sm" id="formFileSm" type="text">
+                        <label for="formFileSm" class="form-label" style="color: purple">Imagen del Proyecto</label>
+                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
+</body>
+</html>
